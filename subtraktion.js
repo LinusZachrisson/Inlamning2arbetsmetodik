@@ -1,9 +1,5 @@
-let num1 = 6;
-let num2 = 3;
-
-function subtraktion() {
-  let subtraktion = num1 - num2;
-  console.log(subtraktion);
+function subtraktion(number1, number2) {
+  return number1 - number2;
 }
 
-subtraktion();
+module.exports = subtraktion;

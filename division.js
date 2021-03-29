@@ -1,9 +1,5 @@
-let num1 = 10;
-let num2 = 2;
-
-function division() {
-  let division = num1 / num2;
-  console.log(division);
+function division(number1, number2) {
+  return number1 / number2;
 }
 
-division();
+module.exports = division;

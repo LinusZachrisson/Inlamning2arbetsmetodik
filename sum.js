@@ -1,9 +1,5 @@
-let num1 = 3;
-let num2 = 7;
-
-function sum() {
-  let sum = num1 + num2;
-  console.log(sum);
+function sum (number1, number2) {
+  return number1 + number2;
 }
 
-sum();
+module.exports = sum; 
